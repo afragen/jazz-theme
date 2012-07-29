@@ -1,0 +1,250 @@
+/*
+Theme Name: Jazz Child
+Theme URI: http://palmspringsjazz.com
+Description: Child Theme for twentyeleven. Gradient background for desired color scheme with custom sitename and site description, for styling, in functions.php. Dynamically loaded colors-css.php stylesheet for all custom colors.
+
+Author: Andy Fragen
+Author URI: http://dtsurgeons.com
+Template: twentyeleven
+Version: 1.0
+*/
+ 
+@import url("../twentyeleven/style.css");
+@import url("colors-css.php");
+
+/* .mejs-container, .mejs-audio { visibility: hidden; } */
+#searchform, #site-generator, .recent-posts, .assistive-text { display: none; }
+body { padding: 0; }
+header#branding hgroup, article, article.intro, footer {
+  width: auto;
+  margin: 10px;
+  padding: 0;
+  background-color: transparent;
+}
+
+/* start Starry Night 3D Parallax */
+header { background: url(images/background.png) repeat 5% 5%; }
+#midground {
+  background: url(images/midground.png) repeat 20% 20%;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -2;
+}
+#foreground {
+  background: url(images/foreground.png) repeat 90% 110%;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+}
+/* end Starry Night 3D Parallax */
+
+#branding { padding-top: 1em; }
+#page { background: transparent; margin: 0 auto; }
+#main #content .entry-content h4 {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.25em;
+  margin-bottom: 1em;
+}
+
+#site-title, #site-description {
+  text-align: left;
+  font-family: "Helvetica Neue",  Arial, Helvetica, Geneva, sans-serif;
+} 
+#site-title { padding: 0; }
+#site-description { margin-top: 2em; }
+#site-description { *padding-top: 2em; }
+
+/* #ps, #smooth, #jazz, #fest { border: 1px dotted orange; } */
+#smooth, #jazz, #tag1, #tag2 { text-transform: uppercase; }
+#smooth {
+  display: block; 
+  font-size: 200%;
+}
+#jazz {
+  font-size: 400%;
+  padding-left: 230px;
+  position: relative;
+}
+#ps, #fest, .header_logo:after {
+  font-variant: small-caps;
+  font-size: 115%;
+}
+#fest {
+  display: inline-block;
+  padding-top: 32px;
+  position: absolute;
+}
+#tag1, #tag2 {
+  display: block;
+  font-size: 125%;
+  line-height: normal;
+}
+#tag1 a, #jazz_contact a:hover { text-decoration: none; }
+
+/* IE specific CSS */
+#jazz { *padding-left: 225px; }
+#fest { *padding-top: 85px; }
+body { *padding: 1em; }
+
+.header_logo {
+  background-image: url(images/HHLogo-bleed.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  padding-right: 1em;
+  height: 184px;
+  width: 260px;
+ }
+ .header_logo:after {
+   white-space: pre;
+   float: right;
+   text-align: right;
+   line-height: normal;
+   content: "A Benefit Gala Evening for\A the Hanson House\A Foundation";
+   padding-right: 20px;
+}
+.header_logo a {
+  float: left;
+  height: 184px;
+  width: 260px;
+  outline: none;
+}
+.header_logo a span { display: none; }
+
+#access {
+    background: transparent; /* Show a solid color for older browsers */
+    background: -moz-linear-gradient(transparent, transparent);
+    background: -o-linear-gradient(transparent, transparent);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(transparent)); /* older webkit syntax */
+    background: -webkit-linear-gradient(transparent, transparent);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+#access li:hover > a, #access ul ul :hover > a, #access a:focus { background: transparent; }
+ 
+#access li:hover > a, #access a:focus {
+    background: transparent; /* Show a solid color for older browsers */
+    background: -moz-linear-gradient(transparent, transparent);
+    background: -o-linear-gradient(transparent, transparent);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(transparent)); /* Older webkit syntax */
+    background: -webkit-linear-gradient(transparent, transparent);
+    /* color: #373737; */
+}
+#access a, #jazz_contact {
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+#jazz_contact { text-align: center; }
+
+#main, #primary {
+  float: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+.shopping_cart { background-color: #fff; }
+.one-column #page { max-width: 1600px; min-height: 800px; }
+
+
+
+#main #content .entry-content img, #main #content .entry-content img a {
+  /*
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  */
+  background-color: transparent;
+  border: none;
+}
+
+
+  
+#content p,
+#content ul,
+#content ol,
+#content dd,
+#content pre,
+#content hr {
+	margin-bottom:14px;
+}
+
+pre { padding:0.75em; }
+#content code { color: darkgreen; }
+
+/*
+.entry-content p img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 10px 6px -6px;
+  padding: 3px;
+  -webkit-box-shadow: 3px 3px 3px #666;
+  -moz-box-shadow: 3px 3px 3px #666;
+}
+*/
+
+p img.wp-smiley {
+  display: inline;
+  position: auto;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+
+
+/* iPad [portrait + landscape] and iPhone [portrait + landscape] */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  #ps, #jazz, #fest { font-size: 1em; position: absolute; }
+  #smooth { font-size: 1.5em; padding-top: 30px;}
+  /* header#branding nav#access a { padding: 9px; } */
+  .mejs-container, .mejs-audio { visibility: visible; }
+  #jazz {
+    font-size: 3em;
+    display: inline-block;
+    position: relative;
+    padding-left: 0;
+  }
+  #access a, #jazz_contact {
+    font-size: 1em;
+    padding: 0.75em;
+  }
+}
+
+
+/* iPad [portrait + landscape] */
+@media only screen and (device-width: 768px) {
+  /* #branding, .header_logo, .header_logo:after { border: none;} */
+  hgroup { border: 1px dotted transparent; }
+  #content code, #content pre { font-size: 0.6em; }
+  table { font-size: 1.5em; }
+  #jazz {
+    margin-left: 172px; 
+    margin-top: -7px; 
+  }
+  #fest { margin-top: -17px; }
+}
+
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+/*#content code { font-size: 0.6em; }*/
+  .header_logo, .header_logo:after { display: none; }
+  #branding { padding-bottom: 0; max-width: 480px; min-width: 340px; }
+  #access a { line-height: 1em; }
+  #jazz {
+    margin-left: 140px;
+    margin-top: -10px;
+  }
+  #fest { margin-top: -26px; }
+}
