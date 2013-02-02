@@ -6,7 +6,7 @@ Description: Child Theme for twentyeleven. Gradient background for desired color
 Author: Andy Fragen
 Author URI: http://dtsurgeons.com
 Template: twentyeleven
-Version: 1.1.1
+Version: 1.1.2
 */
  
 @import url("../twentyeleven/style.css");
@@ -57,7 +57,7 @@ header { background: url(images/background.png) repeat 5% 5%; }
 #site-description { *padding-top: 2em; }
 
 /* #ps, #smooth, #jazz, #fest { border: 1px dotted orange; } */
-#smooth, #jazz, #tag1, #tag2 { text-transform: uppercase; }
+#smooth, #jazz, #tag1, #tag2, #festival, #canyons, #year { text-transform: uppercase; }
 #smooth {
   display: block; 
   font-size: 200%;
