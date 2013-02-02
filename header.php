@@ -35,7 +35,7 @@
 	// Add the blog name.
 	// bloginfo( 'name' );
 	
-	$name = "Palm Springs Smooth Jazz Festival";
+	$name = "Festival in the Canyons";
 	echo $name;
 	// Add the blog description for the home/front page.
 	$site_description = get_bloginfo( 'description', 'display' );

@@ -2,14 +2,14 @@
 header("Content-type: text/css");
 
 //define the variables
-$light_color = "#d4a017"; //Gold
-$dark_color = "#382d2c";  //Gray27
+$light_color = "#dbc788";
+$dark_color = "#623319";
 $title1 = $light_color;
 $title2 = "#c0c0c0";  //Silver
 $menu_dark_hover = "#2d2d2d"; //#373737 original
-$background_image = "images/2012/radial.png";
-$background_topdown = "images/2012/dl_topdown_gradient.png";
-$h2_image = "images/2012/ld_gradient.png";
+$background_image = "images/2013/radial.png";
+$background_topdown = "images/2013/dl_topdown_gradient.png";
+$h2_image = "images/2013/ld_gradient.png";
 
 
 echo <<<CSS
@@ -120,4 +120,3 @@ echo <<<CSS
 /* --- end of css --- */
 
 CSS;
-?>
