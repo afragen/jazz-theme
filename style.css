@@ -6,14 +6,14 @@ Description: Child Theme for twentyeleven. Gradient background for desired color
 Author: Andy Fragen
 Author URI: http://dtsurgeons.com
 Template: twentyeleven
-Version: 1.1.6.4
+Version: 1.1.6.5
 */
  
 @import url("../twentyeleven/style.css");
 @import url("colors-css.php");
 
 /* .mejs-container, .mejs-audio { visibility: hidden; } */
-#searchform, #site-generator, .recent-posts, .assistive-text { display: none; }
+#searchform, #site-generator, .recent-posts, .assistive-text, h1.entry-title { display: none; }
 body { padding: 0; }
 header#branding hgroup, article, article.intro, footer {
   width: auto;
