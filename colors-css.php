@@ -2,8 +2,8 @@
 header("Content-type: text/css");
 
 //define the variables
-$light_color = "#dbc788";
-$dark_color = "#623319";
+$light_color = "#623319";
+$dark_color = "#dbc788";
 $title1 = $light_color;
 $title2 = "#c0c0c0";  //Silver
 $menu_dark_hover = "#2d2d2d"; //#373737 original
@@ -17,8 +17,8 @@ echo <<<CSS
 
 #smooth, .header_logo:after { color: $title1; }
 #ps, #jazz, #fest, #site-description { color: $title2; }
-#festival, #canyons, #year { color: $dark_color; }
-#inthe { color: $title1; }
+#festival, #canyons, #year { color: $title1; }
+#inthe { color: $dark_color; }
 #access a, a, #jazz_contact a { color: $title2; }
 #access li:hover > a, #access a:focus, #jazz_contact a:hover { color: $menu_dark_hover; }
 #tag1, #tag1 a { color: $light_color; }
