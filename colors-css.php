@@ -2,8 +2,8 @@
 header("Content-type: text/css");
 
 //define the variables
-$light_color = "#623319";
-$dark_color = "#dbc788";
+$light_color = "#dbc788";
+$dark_color = "#623319";
 $title1 = $light_color;
 $title2 = "#c0c0c0";  //Silver
 $menu_dark_hover = "#2d2d2d"; //#373737 original
