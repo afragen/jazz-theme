@@ -17,9 +17,11 @@ echo <<<CSS
 
 #smooth, .header_logo:after { color: $title1; }
 #ps, #jazz, #fest, #site-description { color: $title2; }
+#festival, #canyons { color: $title1; }
+#inthe { color: $title2; }
 #access a, a, #jazz_contact a { color: $title2; }
 #access li:hover > a, #access a:focus, #jazz_contact a:hover { color: $menu_dark_hover; }
-#tag1, #tag1 a { color: $light_color; }
+#tag1, #tag1 a, #city { color: $light_color; }
 #tag2 { color: $title2; }
 
 /* --- CSS Gradient Tricks --- */
