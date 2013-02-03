@@ -18,11 +18,11 @@ echo <<<CSS
 #smooth, .header_logo:after { color: $title1; }
 #ps, #jazz, #fest, #site-description { color: $title2; }
 #festival, #canyons, #year { color: $title1; }
-#inthe, #jazz_contact a { color: $dark_color; }
+#jazz_contact a { color: $dark_color; }
 #access a, a { color: $title2; }
 #access li:hover > a, #access a:focus, #jazz_contact a:hover { color: $menu_dark_hover; }
 #tag1, #tag1 a { color: $light_color; }
-#tag2, #city { color: $title2; }
+#tag2, #city, #inthe { color: $title2; }
 
 /* --- CSS Gradient Tricks --- */
 /* --- http://css-tricks.com/examples/CSS3Gradient/ --- */
