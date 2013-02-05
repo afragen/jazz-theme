@@ -6,16 +6,14 @@ Description: Child Theme for twentyeleven. Gradient background for desired color
 Author: Andy Fragen
 Author URI: http://dtsurgeons.com
 Template: twentyeleven
-Version: 1.1.7.5.1
+Version: 1.1.7.5.2
 */
  
 @import url("../twentyeleven/style.css");
 @import url("colors-css.php");
-@import url("MARIAH.TTF");
 @font-face {
 	font-family: festival_font;
-	src: url('MARIAH.TFF');
-	*src: local(festival_font), url('MARIAH.TTF') format('truetype');
+	src: url('mariah-regular.ttf');
 }
 
 /* .mejs-container, .mejs-audio { visibility: hidden; } */
@@ -83,7 +81,7 @@ header { background: url(images/background.png) repeat 5% 5%; }
   display: inline-block; 
 }
 /* #ps, #smooth, #jazz, #fest { border: 1px dotted orange; } */
-#smooth, #jazz, #tag1, #tag2, #festival, #canyons, #year, #city { text-transform: uppercase; }
+#smooth, #jazz, #tag1, #tag2 { text-transform: uppercase; }
 #smooth {
   display: block; 
   font-size: 200%;
