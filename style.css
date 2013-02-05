@@ -11,8 +11,6 @@ Version: 1.1.7.5.5
  
 @import url("../twentyeleven/style.css");
 @import url("colors-css.php");
-@import url('http://use.edgefonts.net/kaushan-script.js');
-@import url('http://use.edgefonts.net/seaweed-script.js');
 @font-face {
 	font-family: festival_font;
 	src: url('mariah-regular.ttf');
@@ -66,7 +64,7 @@ header { background: url(images/background.png) repeat 5% 5%; }
 
 #festival, #inthe, #canyons, #year {
   /* border: 1px dotted orange; */
-  font-family: 'festival_font';
+  /* font-family: 'festival_font'; */
   font-family: seaweed-script, serif;
 }
 .finc_cap { font-family: kaushan-script, serif; }
@@ -262,7 +260,7 @@ p img.wp-smiley {
     margin-top: -7px; 
   }
   #fest { margin-top: -17px; }
-  #festival, #inthe, #canyons, #year { border: 1px dotted orange; } 
+  /* #festival, #inthe, #canyons, #year { border: 1px dotted orange; } */ 
 }
 
 
@@ -277,7 +275,7 @@ p img.wp-smiley {
     margin-top: -10px;
   }
   #fest { margin-top: -26px; }
-  #festival, #canyons { font-size: 175% }
+  #festival, #canyons { font-size: 275% }
   #inthe { padding: 2px 0 2px 1em; }
  #year {
     font-size: 150%;
