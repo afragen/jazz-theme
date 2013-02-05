@@ -18,12 +18,13 @@ function pssjf_name( $text, $show ) {
 }
 
 add_filter( 'bloginfo', 'finc_name', 10, 2 );
-wp_enqueue_script('seaweed-script', 'http://use.edgefonts.net/seaweed-script.js');
-wp_enqueue_script('kaushan-script', 'http://use.edgefonts.net/kaushan-script.js');
 function finc_name( $text, $show ) {
 	if( 'name' == $show ) {
 		$text = '<span id="festival"><span class="finc_cap">F</span>estival</span><span id="inthe">in the</span><span id="year">XVIII</span><span id="canyons"><span class="finc_cap">C</span>anyons</span>';
+		wp_enqueue_script('seaweed-script', 'http://use.edgefonts.net/seaweed-script.js');
+		wp_enqueue_script('kaushan-script', 'http://use.edgefonts.net/kaushan-script.js');
 	}
+	
 	return $text;
 }
 
