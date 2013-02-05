@@ -6,11 +6,13 @@ Description: Child Theme for twentyeleven. Gradient background for desired color
 Author: Andy Fragen
 Author URI: http://dtsurgeons.com
 Template: twentyeleven
-Version: 1.1.7.5.4
+Version: 1.1.7.5.5
 */
  
 @import url("../twentyeleven/style.css");
 @import url("colors-css.php");
+@import url('http://use.edgefonts.net/kaushan-script.js');
+@import url('http://use.edgefonts.net/seaweed-script.js');
 @font-face {
 	font-family: festival_font;
 	src: url('mariah-regular.ttf');
@@ -65,7 +67,9 @@ header { background: url(images/background.png) repeat 5% 5%; }
 #festival, #inthe, #canyons, #year {
   /* border: 1px dotted orange; */
   font-family: 'festival_font';
+  font-family: seaweed-script, serif;
 }
+.finc_cap { font-family: kaushan-script, serif; }
 #festival, #canyons {
   display: block;
   font-size: 275%;
