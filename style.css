@@ -62,12 +62,12 @@ header { background: url(images/background.png) repeat 5% 5%; }
 #site-description { *padding-top: 2em; }
 
 
-#festival, #inthe, #canyons, #year {
+#festival, #inthe, #canyons {
   /* border: 1px dotted orange; */
   /* font-family: 'festival_font'; */
   font-family: seaweed-script, serif;
 }
-.finc_cap { font-family: kaushan-script, serif; }
+.finc_cap, #year { font-family: kaushan-script, serif; }
 #festival, #canyons {
   display: block;
   font-size: 275%;
