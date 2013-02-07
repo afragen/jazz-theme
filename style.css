@@ -6,16 +6,19 @@ Description: Child Theme for twentyeleven. Gradient background for desired color
 Author: Andy Fragen
 Author URI: http://dtsurgeons.com
 Template: twentyeleven
-Version: 1.1.7.6
+Version: 1.1.7.6.1
 */
  
 @import url("../twentyeleven/style.css");
 @import url("colors-css.php");
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+/* 
 @font-face {
 	font-family: festival_font;
 	src: url('OpenBaskerville.ttf');
 	*src: local(festival_font), url('OpenBaskerville.ttf') format('truetype');
 }
+ */
 
 /* .mejs-container, .mejs-audio { visibility: hidden; } */
 #searchform, #site-generator, .recent-posts, .assistive-text, h1.entry-title { display: none; }
@@ -64,7 +67,7 @@ header { background: url(images/background.png) repeat 5% 5%; }
 
 #festival, #inthe, #canyons, #year {
   /* border: 1px dotted orange; */
-  font-family: 'festival_font';
+  font-family: 'Libre Baskerville', serif;
   font-variant: small-caps;
   /* font-family: seaweed-script, serif; */
 }
@@ -243,6 +246,7 @@ p img.wp-smiley {
   }
   #festival, #inthe, #canyons { position: relative; }
  /*  #year { position: absolute; } */
+ #year { padding-left: 180px; }
   #access a, #jazz_contact {
     font-size: 1em;
     padding: 0.75em;
