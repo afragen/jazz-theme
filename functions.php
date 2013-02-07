@@ -20,7 +20,7 @@ function pssjf_name( $text, $show ) {
 add_filter( 'bloginfo', 'finc_name', 10, 2 );
 function finc_name( $text, $show ) {
 	if( 'name' == $show ) {
-		$text = '<span id="festival">Festival</span><span id="inthe">in the</span><span id="year">XVIII</span><span id="canyons">Canyons</span>';
+		$text = '<span id="festival">Festival</span><span id="inthe">in the</span><span id="year">18<span id="th">th</span> Annual</span><span id="canyons">Canyons</span>';
 		//wp_enqueue_script('seaweed-script', 'http://use.edgefonts.net/seaweed-script.js');
 		//wp_enqueue_script('kaushan-script', 'http://use.edgefonts.net/kaushan-script.js');
 	}
