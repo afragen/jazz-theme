@@ -6,15 +6,15 @@ Description: Child Theme for twentyeleven. Gradient background for desired color
 Author: Andy Fragen
 Author URI: http://dtsurgeons.com
 Template: twentyeleven
-Version: 1.1.7.5.7
+Version: 1.1.7.5.8
 */
  
 @import url("../twentyeleven/style.css");
 @import url("colors-css.php");
 @font-face {
 	font-family: festival_font;
-	src: url('mariah-regular.ttf');
-	*src: local(festival_font), url('mariah-regular.ttf') format('truetype');
+	src: url('OpenBaskerville.ttf');
+	*src: local(festival_font), url('OpenBaskerville.ttf') format('truetype');
 }
 
 /* .mejs-container, .mejs-audio { visibility: hidden; } */
@@ -62,12 +62,13 @@ header { background: url(images/background.png) repeat 5% 5%; }
 #site-description { *padding-top: 2em; }
 
 
-#festival, #inthe, #canyons {
+#festival, #inthe, #canyons, #year {
   /* border: 1px dotted orange; */
-  /* font-family: 'festival_font'; */
-  font-family: seaweed-script, serif;
+  font-family: 'festival_font';
+  font-variant: small-caps;
+  /* font-family: seaweed-script, serif; */
 }
-.finc_cap, #year { font-family: kaushan-script, serif; }
+/* .finc_cap, #year { font-family: kaushan-script, serif; } */
 #festival, #canyons {
   display: block;
   font-size: 275%;
