@@ -18,6 +18,7 @@ echo <<<CSS
 #smooth, .header_logo:after { color: $title1; }
 #ps, #jazz, #fest, #site-description { color: $title2; }
 #festival, #canyons, #year { color: $title1; }
+#festival, #inthe, #canyons, #year { text-shadow: 2px 2px $dark_color; }
 #jazz_contact a { color: $dark_color; }
 #access a, a { color: $title2; }
 #access li:hover > a, #access a:focus, #jazz_contact a:hover { color: $menu_dark_hover; }
