@@ -6,7 +6,7 @@ Description: Child Theme for twentyeleven. Gradient background for desired color
 Author: Andy Fragen
 Author URI: http://dtsurgeons.com
 Template: twentyeleven
-Version: 1.1.8.1
+Version: 1.1.8.2
 */
  
 @import url("../twentyeleven/style.css");
@@ -231,7 +231,7 @@ p img.wp-smiley {
   -moz-box-shadow: none;
 }
 
-
+.wp_cart_button_wrapper { display:inline; }
 
 /* iPad [portrait + landscape] and iPhone [portrait + landscape] */
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
